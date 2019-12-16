@@ -5,7 +5,10 @@
 - Configure virtual network connectivity 
 - Configure Network Security Groups (NSGs) 
 - Create and configure Azure Firewall - ([Overview](https://docs.microsoft.com/en-us/azure/firewall/overview)) - ([CreateAndConfigure](https://docs.microsoft.com/en-us/azure/firewall/tutorial-firewall-deploy-portal))
-- Create and configure Azure Front Door service 
+>Diagnostics settings: Targets can be StorageAccount, EventHub and LogAnalytics
+>Network rule collections contains network rules and tag rules.
+>Application rule collections contains 
+- Create and configure Azure Front Door service - ([Overview](https://docs.microsoft.com/nb-no/azure/frontdoor/front-door-overview))
 - Create and configure application security groups 
 - Configure remote access management 
 - Configure baseline 
