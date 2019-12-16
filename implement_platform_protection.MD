@@ -5,12 +5,20 @@
 - Configure virtual network connectivity 
 - Configure Network Security Groups (NSGs) 
 - Create and configure Azure Firewall - ([Overview](https://docs.microsoft.com/en-us/azure/firewall/overview)) - ([CreateAndConfigure](https://docs.microsoft.com/en-us/azure/firewall/tutorial-firewall-deploy-portal))
->Diagnostics settings: Targets can be StorageAccount, EventHub and LogAnalytics
+>Diagnostics settings targets can be a StorageAccount, an EventHub and LogAnalytics
+
 >Network rule collections contains network rules and tag rules.
->Application rule collections contains 
+
+>Application rule collections contains URL targets rules. 
+
 - Create and configure Azure Front Door service - ([Overview](https://docs.microsoft.com/nb-no/azure/frontdoor/front-door-overview))
 > Azure Front Door Service work at Layer 7
+
 > An application backend is any Internet-facing service hosted inside or outside of Azure
+
+> The Frontdoor designer contains the option of configuring Frontend hosts, Backend pools and Routing Rules.
+
+> The Frontdoor cache can be purged (selectively).
 
 - Create and configure application security groups 
 - Configure remote access management 
