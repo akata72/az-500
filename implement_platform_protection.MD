@@ -11,14 +11,17 @@
 
 >Application rule collections contains URL targets rules. 
 
-- Create and configure Azure Front Door service - ([Overview](https://docs.microsoft.com/nb-no/azure/frontdoor/front-door-overview))
-> Azure Front Door Service work at Layer 7
+- Create and configure Azure Front Door service - ([Overview](https://docs.microsoft.com/nb-no/azure/frontdoor/front-door-overview)) - ([FAQ](https://docs.microsoft.com/nb-no/azure/frontdoor/front-door-faq))
+
+> Azure Front Door Service works globally at Layer 7
 
 > An application backend is any Internet-facing service hosted inside or outside of Azure
 
 > The Frontdoor designer contains the option of configuring Frontend hosts, Backend pools and Routing Rules.
 
 > The Frontdoor cache can be purged (selectively).
+
+> Frontdoor service is global and Application gateway is regional.
 
 - Create and configure application security groups 
 - Configure remote access management 
