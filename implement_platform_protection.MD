@@ -9,6 +9,9 @@
 >Network rule collections contains network rules and tag rules.
 >Application rule collections contains 
 - Create and configure Azure Front Door service - ([Overview](https://docs.microsoft.com/nb-no/azure/frontdoor/front-door-overview))
+> Azure Front Door Service work at Layer 7
+> An application backend is any Internet-facing service hosted inside or outside of Azure
+
 - Create and configure application security groups 
 - Configure remote access management 
 - Configure baseline 
