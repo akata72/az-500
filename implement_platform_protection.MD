@@ -4,7 +4,7 @@
 
 - Configure virtual network connectivity 
 - Configure Network Security Groups (NSGs) 
-- Create and configure Azure Firewall [https://docs.microsoft.com/en-us/azure/firewall/]
+- [Create and configure Azure Firewall](https://docs.microsoft.com/en-us/azure/firewall/overview)
 - Create and configure Azure Front Door service 
 - Create and configure application security groups 
 - Configure remote access management 
